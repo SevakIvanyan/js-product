@@ -1,8 +1,9 @@
-function change( el )
-{
-    if ( el.value === "Sevak" )
-        el.value = "Harut";
-    else{
-        el.value = "Sevak";
+function changeName(el) {
+    const userOne = "Sevak";
+    const userTwo = "Harut";
+    if (el.value != userOne) {
+        el.value = userOne;
+    } else {
+        el.value = userTwo;
     }
 }
