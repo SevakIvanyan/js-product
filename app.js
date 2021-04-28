@@ -7,3 +7,8 @@ function changeName(el) {
         el.value = userTwo;
     }
 }
+
+function changeSrc(el) {
+    const img = document.getElementById("main-img");
+    img.src = el.src;
+}

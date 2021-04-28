@@ -3,9 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <title>My First Project</title>
+    <link rel="stylesheet" href="style.css">
+
 </head>
 <body>
 <input type="button" value="click me" onclick="changeName(this)"/>
 <script src="app.js"></script>
+<hr>
+<div class="center">
+    <div class="mySlider">
+        <img src="img/space.png" alt="" class="firstImg" id="main-img">
+    </div>
+    <div>
+        <img src="img/sam.jpg" alt="" class="sizeImg" onclick="changeSrc(this)">
+        <img src="img/nathan.jpg" alt="" class="sizeImg" onclick="changeSrc(this)">
+        <img src="img/tof-.jpg" alt="" class="sizeImg" onclick="changeSrc(this)">
+        <img src="img/chr.jpg" alt="" class="sizeImg" onclick="changeSrc(this)">
+    </div>
+</div>
 </body>
 </html>

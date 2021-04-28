@@ -1,0 +1,16 @@
+.center {
+    float: left;
+    margin-left: 40%;
+    width: 27%;
+}
+.firstImg {
+    float: left;
+    height: 300px;
+    width: 300px;
+}
+.sizeImg {
+    float: left;
+    margin: 2px 2px 2px 2px;
+    height: 71px;
+    width: 71px;
+}
