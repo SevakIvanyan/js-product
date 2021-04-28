@@ -1,14 +1,16 @@
-.center {
+.img-box {
     float: left;
     margin-left: 40%;
     width: 27%;
 }
-.firstImg {
+
+.big-img {
     float: left;
     height: 300px;
     width: 300px;
 }
-.sizeImg {
+
+.img-size {
     float: left;
     margin: 2px 2px 2px 2px;
     height: 71px;
