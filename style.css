@@ -1,0 +1,20 @@
+body {
+    background-color: powderblue;
+}
+
+#myDivOne {
+    width: 100%;
+    padding: 50px 0;
+    text-align: center;
+    background-color: #8ba0a7;
+    margin-top: 20px;
+}
+
+#myDivTwo {
+    width: 100%;
+    padding: 50px 0;
+    text-align: center;
+    background-color: #5e6d72;
+    margin-top: 20px;
+}
+
