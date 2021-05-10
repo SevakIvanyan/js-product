@@ -31,4 +31,11 @@ function myFunctionTwo() {
 
 };
 
-
+function writeMessageHarut() {
+    var a = document.getElementById("youTextHarut").value;
+    document.getElementById("outTextHarut").innerHTML = a;
+}
+function writeMessageSevak() {
+    var a = document.getElementById("youTextSevak").value;
+    document.getElementById("outTextSevak").innerHTML = a;
+}
