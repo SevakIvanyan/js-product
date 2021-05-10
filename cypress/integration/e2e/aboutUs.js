@@ -2,7 +2,7 @@
 
 context('About Us', () => {
     beforeEach(() => {
-        cy.visit('http://localhost:63342/js-product/aboutAs.html?_ijt=cubbd9f92mnibon61pppbdseik')
+        cy.visit('http://localhost:63342/js-product/aboutAs.html?_ijt=it9ra6jd4degdapv9brnloa54s')
     })
 
     // https://on.cypress.io/interacting-with-elements
@@ -18,6 +18,7 @@ context('About Us', () => {
         })
     }
     )
+
     it('Check that text is correct for Sevak button', () => {
         cy.get('[onclick="myFunctionTwo()"]').click()
         cy.get('#myDivOne').should(($div) => {
@@ -28,4 +29,5 @@ context('About Us', () => {
             // expect(text).not.to.include('bar')
         })
     })
+
 })
